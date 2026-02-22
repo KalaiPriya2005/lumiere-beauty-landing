@@ -108,7 +108,7 @@
   },
   "scripts": {
     "clean": "git clean -xdf . -e node_modules",
-    "build": "zshy --project tsconfig.build.json",
+    "build": "vite build",
     "postbuild": "pnpm biome check --write .",
     "test:watch": "pnpm vitest",
     "test": "pnpm vitest run",
